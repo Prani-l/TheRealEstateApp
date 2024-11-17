@@ -10,6 +10,8 @@ dotenv.config();
 
 mongoose
   .connect(process.env.MONGO)
+  // mongodb+srv://wwwclasherr:XHf67nNCqXPaH00o@thereal-realestate.x8qlq.mongodb.net/?retryWrites=true&w=majority&appName=TheREAL-realEstate
+  // XHf67nNCqXPaH00o
   .then(() => {
     console.log('Connected to MongoDB!');
   })
